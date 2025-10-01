@@ -1,0 +1,28 @@
+.header-singup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.header-singup h1{
+    color: var(--foreground-light);
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.header-singup input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border:1px solid hsl(var(--border));
+}
+
+.header-singup input::placeholder{
+    color: var(--foreground);
+}

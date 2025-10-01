@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+[data-style="aodesu"][data-theme="light"] {
+  --font-branch: "Charm", cursive;
+
+  --background: 0 0% 95%;
+  --foreground: 0 0% 0%;
+  --foreground-light: 0 0% 10%;
+  --inverse-foreground: 0 0% 100%;
+
+  --sandbox-bg: 0 0% 100%;
+
+  --neutral: 0 0% 80%;
+  --neutral-dark: 0 0% 90%;
+  --neutral-light: 0 0% 70%;
+
+  --primary: 225 72% 57%;
+  --primary-foreground: 0 0% 100%;
+  --primary-dark: 225 55% 45%;
+  --primary-light: 225 68% 61%;
+
+  --secondary: 258 72% 61%;
+  --secondary-dark: 258 45% 49%;
+  --secondary-light: 258 72% 68%;
+  --secondary-foreground: 0 0% 100%;
+
+  --contrast: 0 0% 20%;
+  --contrast-light: 0 0% 10%;
+  --contrast-dark: 0 0% 30%;
+
+  --border: 0 0% 75%;
+  --border-outline: 0 0% 85%;
+
+  --ghost-neutral-bg: 0 0% 0%;
+  --ghost-neutral-bg-h: 0 0% 90%;
+
+  --ghost-contrast-foreground: 0 0% 93%;
+  --ghost-contrast-bg: 0 0% 13%;
+  --ghost-contrast-bg-h: 0 0% 20%;
+
+  --text-neutral: 0 0% 35%;
+  --text-neutral-h: 0 0% 10%;
+  --text-neutral-active: 0 0% 5%;
+}
+
+[data-style="aodesu"],
+[data-style="aodesu"][data-theme="dark"] {
+  --font-branch: "Charm", cursive;
+
+  --background: 0 0% 4%; /* FONDO */
+  --background-elevated-1: 0 0% 5%; /* FONDO ELEVADO */
+  --background-elevated-2: 0 0% 8.5%; /* FONDO ELEVADO^2 */
+  --foreground: 0 0% 80%; /* LO QUE VA ENCIMA DEL FONDO */
+  --foreground-light: 0 0% 100%; /* LO QUE VA ENCIMA DEL FONDO PERO MAS BRILLANTE (NEGRITA) */
+  --inverse-foreground: 0 0% 10%; /* POR SI TIENE UN FONDO INVERSO Y NECESITA COLOR AL REVEZ */
+
+  --sandbox-bg: 0 0% 3%; /* COLOR DE FONDO DE SANDBOX */
+
+  /* TEMAS */
+  --neutral: 0 0% 20%;
+  --neutral-dark: 0 0% 14%;
+  --neutral-light: 0 0% 27%;
+
+  --primary: 225 72% 57%;
+  --primary-dark: 225 55% 45%;
+  --primary-light: 225 68% 61%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 258 72% 61%;
+  --secondary-dark: 258 45% 49%;
+  --secondary-light: 258 72% 68%;
+  --secondary-foreground: 0 0% 100%;
+
+  --contrast: 0 0% 80%;
+  --contrast-light: 0 0% 95%;
+  --contrast-dark: 0 0% 70%;
+
+  --border: 0 0% 15%;
+  --border-outline: 0 0% 20%;
+
+  --popover: 0 0% 15%;
+  --popover-foreground: 0 0% 90%;
+}
