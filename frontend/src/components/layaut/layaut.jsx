@@ -26,7 +26,7 @@ export default function NavMenu() {
                             }
 
                             setTheme(newTheme);
-                        }}>CAMBIAR TEMA DE MIERDA</Button>
+                        }}>Them</Button>
                         <Button asChild>
                             <NavLink to="/singup">Singup</NavLink>
                         </Button>

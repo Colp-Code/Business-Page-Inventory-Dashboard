@@ -1,13 +1,21 @@
 *{
     box-sizing: border-box;
 }
+.nav-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--foreground);
+}
 .nav-menu {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    z-index: 1000;
     padding: 10px 20px;
     border-bottom: solid 1px #ffffff;
+    background: hsl(var(--background));
+    gap: 1rem;
+    
 }
 
 .nav-menu a {
