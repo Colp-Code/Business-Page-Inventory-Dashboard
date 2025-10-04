@@ -6,22 +6,26 @@ export default function Home() {
         <>
             <div className='body'>
                 <div className="header">
-                    <h1>Build your inventory with ###### :)e</h1>
-                    <p>We are tools that will help you build inventory easy and intuitive</p>
-                    <Button variant="contained" color="contrast">Start inventory</Button>
-                    <h3>We have many tools that help you create a useful and practical inventory.</h3>
-                    <div className='body_sample'>
-                        <div className='sample'>
+                    <div className='header_first'>
+                        <h1>Build your inventory with ###### :)</h1>
+                        <span>We are tools that will help you build inventory easy and intuitive</span>
+                    </div>
+                    <Button size="big" variant="contained" color="contrast">Start inventory</Button>
+                    <div className='header_second'>
+                        <h3>We have many tools that help you create a useful and practical inventory.</h3>
+                        <div className='body_sample'>
+                            <div className='sample'>
 
-                        </div>
-                        <div className='sample'>
+                            </div>
+                            <div className='sample'>
 
+                            </div>
                         </div>
                     </div>
-                    <h3>And much more coming soon.</h3>
-                </div>
-                <footer>
-                        <div className='fooder_clas'>
+                    <h3 className='h3_last'>And much more coming soon.</h3>
+                    <footer>
+                    <div className='footer_body'>
+                        <div>
                             <h4>Social</h4>
                             <ul>
                                 <li>
@@ -53,7 +57,10 @@ export default function Home() {
                                 </li>
                             </ul>
                         </div>
+                    </div>
                 </footer>
+                </div>
+                
             </div>
             
         </>
