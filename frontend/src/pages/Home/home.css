@@ -51,6 +51,11 @@
     height: 80vh;
 }
 
+.header_second h3{
+    text-align: center;
+    font-size: max(24px, min(2vw, 30px));
+}
+
 .body_sample{
     display: flex;
     width: 100%;
